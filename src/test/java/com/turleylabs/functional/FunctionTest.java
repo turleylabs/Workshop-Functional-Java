@@ -16,7 +16,7 @@ public class FunctionTest {
                 , "Joshua: \"The only winning move is not to play.\""
                 , "Joshua: \"How about a nice game of chess?\"");
         // TODO: update transformation function
-        Function<String, String> transformLine = s -> s;
+        Function<String, String> transformLine = s -> "Joshua: \"" + s + "\"";
 
         assertEquals(quotes, FileIO.transformFile(transformLine));
     }

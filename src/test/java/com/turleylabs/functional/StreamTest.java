@@ -20,6 +20,8 @@ public class StreamTest {
 
     @Test
     public void totalPricesGreaterThan20ButDiscountTheDifferenceFrom20By10Percent() {
+        // 30 = 30 - 20 = 10 * 0.1 = 1
+        // 29
         List<Double> prices = Arrays.asList(10.0, 30.0, 40.0, 50.0);
         assertEquals(114.0, Streams.totalPrices(prices), 0.001);
     }

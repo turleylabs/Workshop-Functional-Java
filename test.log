@@ -1,0 +1,106 @@
+TEST RUN at 10:24:15
+Tests passed: 1
+Tests failed: 7
+Failures: 
+	* Test: "[1] + 1 1, 2".  Reason: "Assert failed - + 1 1 ==> expected: <2> but was: <0>"
+	* Test: "[2] + 17 18, 35".  Reason: "Assert failed - + 17 18 ==> expected: <35> but was: <0>"
+	* Test: "[4] - 17 18, -1".  Reason: "Assert failed - - 17 18 ==> expected: <-1> but was: <0>"
+	* Test: "[5] * 1 1, 1".  Reason: "Assert failed - * 1 1 ==> expected: <1> but was: <0>"
+	* Test: "[6] * 17 18, 306".  Reason: "Assert failed - * 17 18 ==> expected: <306> but was: <0>"
+	* Test: "[7] / 2 1, 2".  Reason: "Assert failed - / 2 1 ==> expected: <2> but was: <0>"
+	* Test: "[8] / 20 5, 4".  Reason: "Assert failed - / 20 5 ==> expected: <4> but was: <0>"
+
+TEST RUN at 10:25:49
+Tests passed: 3
+Tests failed: 5
+Failures: 
+	* Test: "[4] - 17 18, -1".  Reason: "Assert failed - - 17 18 ==> expected: <-1> but was: <0>"
+	* Test: "[5] * 1 1, 1".  Reason: "Assert failed - * 1 1 ==> expected: <1> but was: <0>"
+	* Test: "[6] * 17 18, 306".  Reason: "Assert failed - * 17 18 ==> expected: <306> but was: <0>"
+	* Test: "[7] / 2 1, 2".  Reason: "Assert failed - / 2 1 ==> expected: <2> but was: <0>"
+	* Test: "[8] / 20 5, 4".  Reason: "Assert failed - / 20 5 ==> expected: <4> but was: <0>"
+
+TEST RUN at 10:26:50
+Tests passed: 8
+Tests failed: 0
+Failures: 
+
+TEST RUN at 10:31:10
+Tests passed: 8
+Tests failed: 0
+Failures: 
+
+TEST RUN at 10:41:42
+Tests passed: 0
+Tests failed: 1
+Failures: 
+	* Test: "transformData()".  Reason: "Assert failed - expected: <[Joshua: "Greetings, Professor Falken.", Joshua: "A strange game.", Joshua: "The only winning move is not to play.", Joshua: "How about a nice game of chess?"]> but was: <[Greetings, Professor Falken.
+A strange game.
+The only winning move is not to play.
+How about a nice game of chess?]>"
+
+TEST RUN at 10:43:04
+Tests passed: 0
+Tests failed: 1
+Failures: 
+	* Test: "transformData()".  Reason: "Assert failed - expected: <[Joshua: "Greetings, Professor Falken.", Joshua: "A strange game.", Joshua: "The only winning move is not to play.", Joshua: "How about a nice game of chess?"]> but was: <[Greetings, Professor Falken., A strange game., The only winning move is not to play., How about a nice game of chess?]>"
+
+TEST RUN at 10:45:02
+Tests passed: 1
+Tests failed: 0
+Failures: 
+
+TEST RUN at 11:13:16
+Tests passed: 1
+Tests failed: 0
+Failures: 
+
+TEST RUN at 11:17:26
+Tests passed: 0
+Tests failed: 1
+Failures: 
+	* Test: "totalPricesGreaterThan20ButDiscountTheDifferenceFrom20By10Percent()".  Reason: "Unexpected Exception - java.lang.NullPointerException"
+
+TEST RUN at 11:20:04
+Tests passed: 0
+Tests failed: 1
+Failures: 
+	* Test: "totalPricesGreaterThan20ButDiscountTheDifferenceFrom20By10Percent()".  Reason: "Assert failed - expected: <114.0> but was: <108.0>"
+
+TEST RUN at 11:20:38
+Tests passed: 0
+Tests failed: 1
+Failures: 
+	* Test: "totalPricesGreaterThan20ButDiscountTheDifferenceFrom20By10Percent()".  Reason: "Assert failed - expected: <114.0> but was: <6.0>"
+
+TEST RUN at 11:20:52
+Tests passed: 1
+Tests failed: 0
+Failures: 
+
+TEST RUN at 11:24:01
+Tests passed: 1
+Tests failed: 0
+Failures: 
+
+TEST RUN at 11:25:13
+Tests passed: 1
+Tests failed: 0
+Failures: 
+
+TEST RUN at 11:25:36
+Tests passed: 0
+Tests failed: 1
+Failures: 
+	* Test: "groupTechnologyEmployeeNamesBySalary()".  Reason: "Assert failed - expected: <{80000=[Deirdre, Joan, Rachel, Andrew, Frank, Luke, Sean], 100000=[Abigail, Gabrielle, Kimberly, Tracey, Brandon, Jacob, Neil], 75000=[Bernadette, Irene, Lisa, Wanda, Dan, Joseph, Peter]}> but was: <null>"
+
+TEST RUN at 11:28:54
+Tests passed: 1
+Tests failed: 0
+Failures: 
+
+TEST RUN at 11:32:13
+Tests passed: 1
+Tests failed: 0
+Failures: 
+

@@ -5,7 +5,10 @@ import java.util.HashMap;
 public class Arithmetic {
     HashMap<String, ArithmeticOperation> operations = new HashMap<>() {{
         // TODO: Fill in lambda expressions to compute the correct results
-//        put("arithmetic symbol", a lambda expression);
+        put("+", (first, second) -> first + second);
+        put("*", (first, second) -> first * second);
+        put("/", (first, second) -> first / second);
+        put("-", (first, second) -> first - second);
     }};
 
     public int doOperation(String expression) {
