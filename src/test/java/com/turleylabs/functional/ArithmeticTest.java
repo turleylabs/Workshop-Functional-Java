@@ -1,23 +1,25 @@
 package com.turleylabs.functional;
 
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.*;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ArithmeticTest {
-    private final Arithmetic arithmetic = new Arithmetic();
+    Arithmetic arithmetic = new Arithmetic();
 
-    @ParameterizedTest
-    @CsvSource({"+ 1 1, 2"
-            , "+ 17 18, 35"
-            , "- 1 1, 0"
-            , "- 17 18, -1"
-            , "* 1 1, 1"
-            , "* 17 18, 306"
-            , "/ 2 1, 2"
-            , "/ 20 5, 4"
-    })
-    public void verifyCalculations(String expression, int result) {
-        assertEquals(result, arithmetic.doOperation(expression), expression);
+    @Test
+    void callLambdaAsInstanceVariable() {
+        assertEquals(30, arithmetic.callLambdaAsInstanceVariable(7, 3));
     }
+
+    @Test
+    void createSumAndDivider() {
+        assertEquals(2, arithmetic.createSumAndDivider(5).operate(7, 3));
+    }
+
+    @Test
+    void calculateResult() {
+        assertEquals(7, arithmetic.calculateResult(2, 3));
+    }
+
 }
